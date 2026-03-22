@@ -14,9 +14,11 @@
 ---
 
 ## 🛠️ Skills
-- 💻 Languages: Python, C++, R  
-- 📊 Data Tools: Power BI, Excel, MySQL  
-- 📚 Core: DSA, DBMS, OOP  
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) 
 
 ---
 
