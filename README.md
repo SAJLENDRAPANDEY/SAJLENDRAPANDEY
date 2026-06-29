@@ -47,7 +47,7 @@ sajlendra = {
 ## 📈 GitHub Analytics
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=SAJLENDRAPANDEY&show_icons=true&theme=tokyonight&border_radius=12&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=SAJLENDRAPANDEY&show_icons=true&theme=tokyonight&border_radius=12" height="165"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAJLENDRAPANDEY&layout=compact&theme=tokyonight&border_radius=12" height="165"/>
 </p>
 
