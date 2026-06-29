@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Sajlendra%20Pandey&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Data%20Analyst%20%7C%20ML%20Developer%20%7C%20Python%20%26%20SQL&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0f2027,50:203a43,100:2c5364&amp;height=200&amp;section=header&amp;text=Sajlendra%20Pandey&amp;fontSize=55&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=Data%20Analyst%20%7C%20ML%20Developer%20%7C%20Python%20%26%20SQL&amp;descAlignY=58&amp;descSize=18&amp;animation=fadeIn" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Data+Science+Student+%40+MDU+Rohtak;Building+Real-World+ML+%2B+Data+Apps;Open+Source+Contributor+%7C+GSSoC+%2724;Open+to+Internships+%26+Collaborations)](https://git.io/typing-svg)
 
@@ -47,22 +47,22 @@ sajlendra = {
 ## 📈 GitHub Analytics
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=SAJLENDRAPANDEY&show_icons=true&theme=tokyonight&border_radius=12" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAJLENDRAPANDEY&layout=compact&theme=tokyonight&border_radius=12" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=SAJLENDRAPANDEY&amp;show_icons=true&amp;theme=tokyonight&amp;border_radius=12" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAJLENDRAPANDEY&amp;layout=compact&amp;theme=tokyonight&amp;border_radius=12" height="165"/>
 </p>
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=SAJLENDRAPANDEY&theme=tokyonight&border_radius=12"/>
+<img src="https://streak-stats.demolab.com?user=SAJLENDRAPANDEY&amp;theme=tokyonight&amp;border_radius=12"/>
 </p>
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SAJLENDRAPANDEY&theme=tokyo-night&hide_border=true&area=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SAJLENDRAPANDEY&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true"/>
 </p>
 
 ## 🏆 Trophies
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=SAJLENDRAPANDEY&theme=tokyonight&no-frame=true&row=1&column=7"/>
+<img src="https://github-profile-trophy.vercel.app/?username=SAJLENDRAPANDEY&amp;theme=tokyonight&amp;no-frame=true&amp;row=1&amp;column=7"/>
 </p>
 
 ## 🐍 Contribution Snake
@@ -84,7 +84,7 @@ sajlendra = {
 ## 💡 Random Dev Quote
 
 <p align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=tokyonight"/>
 </p>
 
 ## 🎯 Currently Working On
@@ -105,6 +105,6 @@ Always building something cool — open to open-source collabs, freelance work, 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer&text=Thank%20You%20For%20Visiting!&fontSize=30&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:2c5364,50:203a43,100:0f2027&amp;height=120&amp;section=footer&amp;text=Thank%20You%20For%20Visiting!&amp;fontSize=30&amp;fontColor=ffffff" width="100%"/>
 
 </div>
