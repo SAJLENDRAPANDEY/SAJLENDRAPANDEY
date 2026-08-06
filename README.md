@@ -100,22 +100,18 @@ HR analytics using advanced SQL queries for workforce insights.
 </tr>
 </table>
 
-## GitHub Analytics
+## 📊 GitHub Analytics
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=SAJLENDRAPANDEY&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAJLENDRAPANDEY&layout=compact&theme=tokyonight&hide_border=true" width="48%"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SAJLENDRAPANDEY&theme=tokyonight&hide_border=true" width="60%"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SAJLENDRAPANDEY&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
-
-</div>
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SAJLENDRAPANDEY&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAJLENDRAPANDEY&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=SAJLENDRAPANDEY&theme=tokyonight&hide_border=true"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SAJLENDRAPANDEY&theme=tokyo-night&hide_border=true&area=true"/>
+</p>
 
 <!--
 Optional: GitHub Contribution Snake Animation
