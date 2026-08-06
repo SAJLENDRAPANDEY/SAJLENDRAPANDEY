@@ -17,83 +17,76 @@
 
 </div>
 
-## About Me
+## 🚀 About Me
 
-- Final Year B.Tech CSE (Data Science), Maharishi Dayanand University, Rohtak — Graduating 2027
-- Focused on Data Analytics & Machine Learning
-- Building production-ready ML applications end-to-end
-- Strong in Python, SQL, FastAPI & PostgreSQL
-- Open to internships & collaborations
+- 🎓 Final Year B.Tech CSE (Data Science) @ MDU Rohtak — Graduating 2027
+- 💻 Passionate about Software Engineering, Data Analytics & Machine Learning
+- 📊 Building production-ready ML and full-stack applications
+- ⚡ Strong in Python, SQL, FastAPI, PostgreSQL & React
+- 🌱 Currently exploring LLMs, Advanced SQL and System Design
+- 🤝 Open to Software Engineering, Data Analyst & ML opportunities
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-**Languages**
-<p><img src="https://skillicons.dev/icons?i=py,java,cpp,mysql&theme=dark" /></p>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,java,cpp,c,react,fastapi,flask,django,postgres,mysql,sqlite,docker,git,github,vscode,powershell&perline=8"/>
+</p>
 
-**Frameworks**
-<p><img src="https://skillicons.dev/icons?i=fastapi,flask,django,react&theme=dark" /></p>
-
-**Databases**
-<p><img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite&theme=dark" /></p>
-
-**Tools**
-<p><img src="https://skillicons.dev/icons?i=git,github,docker,vscode&theme=dark" /></p>
-
-## Featured Projects
+## 💼 Featured Projects
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-**Retail Sales Forecasting Platform**
-Full-stack ML platform for time-series retail sales forecasting.
-`React` `FastAPI` `Machine Learning` `SQLite` `Docker`
+<a href="https://github.com/SAJLENDRAPANDEY/Retail-Sales-Forecasting-Platform">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SAJLENDRAPANDEY&repo=Retail-Sales-Forecasting-Platform&theme=tokyonight&hide_border=true"/>
+</a>
 
-[![GitHub](https://img.shields.io/badge/GitHub-0B1120?style=flat-square&logo=github)](https://github.com/SAJLENDRAPANDEY/Retail-Sales-Forecasting-Platform)
+`React` `FastAPI` `ML` `SQLite` `Docker`
 [![Live](https://img.shields.io/badge/Live_Demo-4EA8FF?style=flat-square&logo=netlify&logoColor=white)](https://retails-sales-forecasting-platform.netlify.app/)
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-**House Price Prediction**
-ML regression app predicting house prices, deployed on Hugging Face.
+<a href="https://github.com/SAJLENDRAPANDEY/house-price-prediction-app">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SAJLENDRAPANDEY&repo=house-price-prediction-app&theme=tokyonight&hide_border=true"/>
+</a>
+
 `Flask` `Scikit-Learn` `Random Forest`
-
-[![GitHub](https://img.shields.io/badge/GitHub-0B1120?style=flat-square&logo=github)](https://github.com/SAJLENDRAPANDEY/house-price-prediction-app)
 [![Live](https://img.shields.io/badge/Live_Demo-4EA8FF?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/spaces/sajlendrapandey/house-price-predictor-app)
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-**Credit Card Fraud Detection**
-Fraud detection system using ML classification models.
+<a href="https://github.com/SAJLENDRAPANDEY/credit_card_fraud_detection_yash">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SAJLENDRAPANDEY&repo=credit_card_fraud_detection_yash&theme=tokyonight&hide_border=true"/>
+</a>
+
 `Python` `Machine Learning` `Classification`
-
-[![GitHub](https://img.shields.io/badge/GitHub-0B1120?style=flat-square&logo=github)](https://github.com/SAJLENDRAPANDEY/credit_card_fraud_detection_yash)
 [![Live](https://img.shields.io/badge/Live_Demo-4EA8FF?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/spaces/sajlendrapandey/credit_card_fraud_detection)
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-**No Waste**
-AI-powered waste recycling platform with OCR-based detection.
+<a href="https://github.com/SAJLENDRAPANDEY/no-waste">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SAJLENDRAPANDEY&repo=no-waste&theme=tokyonight&hide_border=true"/>
+</a>
+
 `Django` `Gemini AI` `OCR`
-
-[![GitHub](https://img.shields.io/badge/GitHub-0B1120?style=flat-square&logo=github)](https://github.com/SAJLENDRAPANDEY/no-waste)
 [![Live](https://img.shields.io/badge/Live_Demo-4EA8FF?style=flat-square&logo=render&logoColor=white)](https://no-waste-lbks.onrender.com/)
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-**SQL HR Analytics**
-HR analytics using advanced SQL queries for workforce insights.
+<a href="https://github.com/SAJLENDRAPANDEY/SQL-HR-Analytics-Project">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SAJLENDRAPANDEY&repo=SQL-HR-Analytics-Project&theme=tokyonight&hide_border=true"/>
+</a>
+
 `PostgreSQL` `SQL` `Data Analytics`
-
-[![GitHub](https://img.shields.io/badge/GitHub-0B1120?style=flat-square&logo=github)](https://github.com/SAJLENDRAPANDEY/SQL-HR-Analytics-Project)
 
 </td>
 <td width="50%"></td>
@@ -109,8 +102,29 @@ HR analytics using advanced SQL queries for workforce insights.
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=SAJLENDRAPANDEY&theme=tokyonight&hide_border=true"/>
 </p>
+
+## 📈 GitHub Summary
+
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SAJLENDRAPANDEY&theme=github_dark"/>
+</p>
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SAJLENDRAPANDEY&theme=github_dark"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SAJLENDRAPANDEY&theme=github_dark"/>
+</p>
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SAJLENDRAPANDEY&theme=github_dark"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SAJLENDRAPANDEY&theme=github_dark&utcOffset=5.5"/>
+</p>
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=SAJLENDRAPANDEY&theme=tokyo-night&hide_border=true&area=true"/>
+</p>
+
+## 💻 Coding Profiles
+
+<p align="center">
+<img height="165" src="https://leetcard.jacoblin.cool/sajlendrapandey2024?theme=dark&font=Fira%20Code&ext=contest"/>
 </p>
 
 <!--
@@ -119,12 +133,20 @@ Requires a scheduled GitHub Action in this repo to generate the snake SVG
 (platane/snk) and commit it to an `output` branch — it will not render
 until that workflow has run at least once. Uncomment after setup:
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/SAJLENDRAPANDEY/SAJLENDRAPANDEY/output/github-contribution-grid-snake-dark.svg" width="95%"/>
-</div>
+<p align="center">
+<img src="https://raw.githubusercontent.com/SAJLENDRAPANDEY/SAJLENDRAPANDEY/output/github-contribution-grid-snake-dark.svg"/>
+</p>
 -->
 
-## Certifications
+## 🏆 Achievements
+
+- 🥇 HackerRank Software Engineer Certified
+- 🌍 GSSoC Open Source Contributor
+- 🎓 Samsung Innovation Campus
+- 📈 Deloitte Data Analytics Job Simulation
+- 💼 Multiple ML & Data Science Projects Deployed
+
+## 🎓 Certifications
 
 - HackerRank Software Engineer Certificate
 - Deloitte Data Analytics Job Simulation
@@ -132,4 +154,10 @@ until that workflow has run at least once. Uncomment after setup:
 - Prompt Engineering Certification
 - GSSoC Contributor
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:112240,100:0B1120&height=110&section=footer&text=Thanks%20for%20Visiting!&fontSize=18&fontColor=4EA8FF&animation=fadeIn" width="100%"/>
+<h3 align="center">
+
+⭐ If you like my work, consider giving a star to my repositories ⭐
+
+</h3>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:112240,100:0B1120&height=120&section=footer&text=Thanks%20for%20Visiting!&fontSize=18&fontColor=4EA8FF&animation=fadeIn" width="100%"/>
