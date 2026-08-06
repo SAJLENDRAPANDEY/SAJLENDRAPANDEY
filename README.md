@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:0F2740,100:0B1120&height=190&section=header&text=Sajlendra%20Pandey&fontSize=40&fontColor=4EA8FF&animation=fadeIn&fontAlignY=36&desc=Software%20Engineer%20•%20Data%20Analyst%20•%20Machine%20Learning%20Engineer&descAlignY=56&descSize=15&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:112240,100:0B1120&height=200&section=header&text=Sajlendra%20Pandey&fontSize=42&fontColor=4EA8FF&animation=fadeIn&fontAlignY=36&desc=Software%20Engineer%20•%20Data%20Analyst%20•%20Machine%20Learning%20Engineer&descAlignY=58&descSize=15&descAlign=50" width="100%"/>
 
 <a href="https://github.com/SAJLENDRAPANDEY">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=19&duration=2800&pause=900&color=4EA8FF&center=true&vCenter=true&width=580&lines=Data+Science+Student+%40+MDU+Rohtak;Building+Real-World+ML+Applications;Python+%E2%80%A2+SQL+%E2%80%A2+FastAPI+%E2%80%A2+Machine+Learning;Open+to+Software+Engineering+%26+Data+Roles" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=19&duration=2600&pause=800&color=4EA8FF&center=true&vCenter=true&width=560&lines=Software+Engineer;Data+Analyst;Machine+Learning+Engineer;Python+%E2%80%A2+SQL+%E2%80%A2+FastAPI;Open+to+Internships" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -20,10 +20,10 @@
 ## About Me
 
 - Final Year B.Tech CSE (Data Science), Maharishi Dayanand University, Rohtak — Graduating 2027
-- Passionate about Data Analytics & AI
-- Building end-to-end ML applications from data to deployment
+- Focused on Data Analytics & Machine Learning
+- Building production-ready ML applications end-to-end
 - Strong in Python, SQL, FastAPI & PostgreSQL
-- Open to internships and full-time opportunities
+- Open to internships & collaborations
 
 ## Tech Stack
 
@@ -89,7 +89,7 @@ AI-powered waste recycling platform with OCR-based detection.
 <tr>
 <td width="50%" valign="top">
 
-**SQL HR Analytics Project**
+**SQL HR Analytics**
 HR analytics using advanced SQL queries for workforce insights.
 `PostgreSQL` `SQL` `Data Analytics`
 
@@ -103,11 +103,30 @@ HR analytics using advanced SQL queries for workforce insights.
 ## GitHub Analytics
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=SAJLENDRAPANDEY&show_icons=true&theme=dark&hide_border=true&bg_color=0B1120&title_color=4EA8FF&icon_color=4EA8FF&text_color=C9D1D9" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAJLENDRAPANDEY&layout=compact&theme=dark&hide_border=true&bg_color=0B1120&title_color=4EA8FF&text_color=C9D1D9" width="48%"/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=SAJLENDRAPANDEY&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAJLENDRAPANDEY&layout=compact&theme=tokyonight&hide_border=true" width="48%"/>
+
 <br/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SAJLENDRAPANDEY&theme=dark&hide_border=true&background=0B1120&stroke=4EA8FF&ring=4EA8FF&fire=4EA8FF&currStreakLabel=4EA8FF" width="60%"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SAJLENDRAPANDEY&theme=tokyonight&hide_border=true" width="60%"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SAJLENDRAPANDEY&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
+
 </div>
+
+<!--
+Optional: GitHub Contribution Snake Animation
+Requires a scheduled GitHub Action in this repo to generate the snake SVG
+(platane/snk) and commit it to an `output` branch — it will not render
+until that workflow has run at least once. Uncomment after setup:
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SAJLENDRAPANDEY/SAJLENDRAPANDEY/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+</div>
+-->
 
 ## Certifications
 
@@ -117,4 +136,4 @@ HR analytics using advanced SQL queries for workforce insights.
 - Prompt Engineering Certification
 - GSSoC Contributor
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:0F2740,100:0B1120&height=110&section=footer&text=Thanks%20for%20Visiting!&fontSize=18&fontColor=4EA8FF&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:112240,100:0B1120&height=110&section=footer&text=Thanks%20for%20Visiting!&fontSize=18&fontColor=4EA8FF&animation=fadeIn" width="100%"/>
