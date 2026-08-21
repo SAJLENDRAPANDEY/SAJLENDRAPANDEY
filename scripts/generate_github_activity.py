@@ -20,15 +20,14 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
       totalIssueContributions
       totalPullRequestContributions
       totalPullRequestReviewContributions
-
-      repositoriesContributedTo(
-        first: 31
-        contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]
-      ) {
-        totalCount
-        nodes {
-          nameWithOwner
-        }
+    }
+    repositoriesContributedTo(
+      first: 31
+      contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]
+    ) {
+      totalCount
+      nodes {
+        nameWithOwner
       }
     }
   }
@@ -62,7 +61,7 @@ def github_graphql(query, variables):
     if "errors" in result:
         raise RuntimeError(json.dumps(result["errors"], indent=2))
 
-    return result["data"]["user"]["contributionsCollection"]
+    return result["data"]["user"]
 
 
 def percentage(value, total):
@@ -89,11 +88,12 @@ def polygon_points(cx, cy, radius, values):
     return " ".join(points)
 
 
-def generate_svg(data):
-    commits = data["totalCommitContributions"]
-    issues = data["totalIssueContributions"]
-    prs = data["totalPullRequestContributions"]
-    reviews = data["totalPullRequestReviewContributions"]
+def generate_svg(user_data):
+    cc = user_data["contributionsCollection"]
+    commits = cc["totalCommitContributions"]
+    issues = cc["totalIssueContributions"]
+    prs = cc["totalPullRequestContributions"]
+    reviews = cc["totalPullRequestReviewContributions"]
 
     total = commits + issues + prs + reviews
 
@@ -104,7 +104,7 @@ def generate_svg(data):
 
     percentages = [commit_pct, pr_pct, issue_pct, review_pct]
 
-    repositories = data["repositoriesContributedTo"]
+    repositories = user_data["repositoriesContributedTo"]
     repo_names = [node["nameWithOwner"] for node in repositories["nodes"]]
     repo_count = repositories["totalCount"]
     first_repos = repo_names[:3]
@@ -299,7 +299,7 @@ def main():
     now = datetime.now(timezone.utc)
     one_year_ago = now - timedelta(days=365)
 
-    data = github_graphql(
+    user_data = github_graphql(
         QUERY,
         {
             "login": USERNAME,
@@ -308,7 +308,7 @@ def main():
         }
     )
 
-    svg = generate_svg(data)
+    svg = generate_svg(user_data)
 
     os.makedirs("assets", exist_ok=True)
 
