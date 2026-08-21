@@ -13,6 +13,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white)](https://sajlendrapandey.netlify.app/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/sajlendrapandey2024/)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks)](https://www.geeksforgeeks.org/profile/sajlendra_pandey_72/)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/sajlendra_23ds01)
 [![Codolio](https://img.shields.io/badge/Codolio-6D28D9?style=for-the-badge&logoColor=white)](https://codolio.com/profile/sajlendra_pandey)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sajlendrapandey2022@gmail.com)
 
@@ -24,7 +25,7 @@
 
 - 🎓 Final Year B.Tech CSE (Data Science), MDU Rohtak — 2023–2027 · CGPA 8.23/10
 - 💼 Machine Learning Engineer Intern @ **FlyRank AI** (Jul 2026–Present) — Search Intelligence ML for SEO & content optimization
-- 🤖 AIML Intern @ **Zeex AI**, Nirmaan IIT Madras (Aug 2026–Present) — Computer Vision dataset engineering
+- 🤖 AIML Intern @ **Zeex AI**, Nirmaan IIT Madras (Aug 2026–Present) — Computer Vision dataset engineering & annotation
 - 🌍 Campus Ambassador — GSSoC 2026, MyGov (Govt. of India), HackerRank Campus Crew, Zuno by foundit
 - 📊 Building production-ready AI, Data Analytics & Full-Stack applications
 - 🌱 Currently learning LLMs, Advanced SQL & System Design
@@ -40,9 +41,9 @@
 
 **Languages:** Python · SQL · R · HTML/CSS/JS
 **Data & ML:** NumPy · Pandas · Scikit-learn · Matplotlib · Seaborn
-**Frameworks:** FastAPI · Flask · Django · React
+**Frameworks:** FastAPI · Flask · Django · Streamlit · React
 **Databases & BI:** PostgreSQL · MySQL · SQLite · Power BI · Tableau · Excel
-**Tools:** Git/GitHub · Docker · MLflow · GitHub Actions
+**Tools:** Git/GitHub · Docker · MLflow · GitHub Actions · Roboflow · YOLO · OpenCV
 
 ---
 
@@ -51,13 +52,25 @@
 | Project | Description | Links |
 |---|---|---|
 | **Retail Sales Forecasting Platform** | React + FastAPI + ML time-series forecasting app with auth | [Repo](https://github.com/SAJLENDRAPANDEY/Retail-Sales-Forecasting-Platform) · [Live](https://retails-sales-forecasting-platform.netlify.app/) |
+| **NexOrder** | Full-stack order management platform — FastAPI + Razorpay, role-split user/admin dashboards | *repo link needed* |
 | **Waste Not — AI Waste Recycling Platform** | Django/SQLite app for smart waste management | [Repo](https://github.com/SAJLENDRAPANDEY/no-waste) · [Live](https://no-waste-lbks.onrender.com/) |
 | **House Price Predictor** | Flask ML app deployed on Hugging Face Spaces | [Repo](https://github.com/SAJLENDRAPANDEY/house-price-prediction-app) · [Live](https://huggingface.co/spaces/sajlendrapandey/house-price-predictor-app) |
 | **Credit Card Fraud Detection** | ML + SMOTE fraud detection with Streamlit UI | [Repo](https://github.com/SAJLENDRAPANDEY/credit_card_fraud_detection_yash) · [Live](https://huggingface.co/spaces/sajlendrapandey/credit_card_fraud_detection) |
 | **Superstore Sales Analysis** | Excel + Python + SQL + Power BI on $2.26M sales dataset | [Repo](https://github.com/SAJLENDRAPANDEY/Superstore-Sales-Analysis) |
 | **Supplement Sales Analytics** | Advanced analytics using PostgreSQL | [Repo](https://github.com/SAJLENDRAPANDEY/Supplement-Sales-Analytics-using-PostgreSQL) |
 | **Retail Sales Analytics Pipeline** | Modular 7-stage Python ETL pipeline | [Repo](https://github.com/SAJLENDRAPANDEY/retail-sales-analytics) |
-| **NexOrder** | Full-stack order management platform — FastAPI + Razorpay, role-based dashboards | *repo link needed* |
+
+---
+
+# 🔥 GitHub Activity Overview
+
+<p align="center">
+  <img
+    src="./assets/github-activity-overview.svg"
+    alt="GitHub Activity Overview"
+    width="100%"
+  />
+</p>
 
 ---
 
