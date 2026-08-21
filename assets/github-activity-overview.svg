@@ -1,1 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="940"
+    height="420"
+    viewBox="0 0 940 420">
 
+    <rect
+        x="8"
+        y="8"
+        width="924"
+        height="404"
+        rx="4"
+        fill="#0d1117"
+        stroke="#30363d"
+        stroke-width="1"
+    />
+
+    <style>
+        text {
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Helvetica,
+                Arial,
+                sans-serif;
+        }
+
+        .title {
+            fill: #f0f6fc;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .repo {
+            fill: #58a6ff;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .normal {
+            fill: #c9d1d9;
+            font-size: 16px;
+        }
+
+        .percentage {
+            fill: #f0f6fc;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .label {
+            fill: #8b949e;
+            font-size: 15px;
+        }
+    </style>
+
+    <text x="28" y="45" class="title">
+        Activity overview
+    </text>
+
+    <line
+        x1="475"
+        y1="75"
+        x2="475"
+        y2="390"
+        stroke="#30363d"
+        stroke-width="1"
+    />
+
+    <text x="28" y="105" class="normal">
+        Contributed to
+    </text>
+
+        <text x="58" y="135" class="repo">
+            shap/shap
+        </text>
+        
+        <text x="58" y="165" class="repo">
+            is-a-dev/register
+        </text>
+        
+        <text x="58" y="195" class="repo">
+            Prateekiiitg56/BizInsight-AI
+        </text>
+        
+        <polygon
+            points="720.00,197.50 747.50,225.00 720.00,252.50 692.50,225.00"
+            fill="none"
+            stroke="#30363d"
+            stroke-width="1"
+        />
+        
+        <polygon
+            points="720.00,170.00 775.00,225.00 720.00,280.00 665.00,225.00"
+            fill="none"
+            stroke="#30363d"
+            stroke-width="1"
+        />
+        
+        <polygon
+            points="720.00,142.50 802.50,225.00 720.00,307.50 637.50,225.00"
+            fill="none"
+            stroke="#30363d"
+            stroke-width="1"
+        />
+        
+        <polygon
+            points="720.00,115.00 830.00,225.00 720.00,335.00 610.00,225.00"
+            fill="none"
+            stroke="#30363d"
+            stroke-width="1"
+        />
+        
+        <line
+            x1="720"
+            y1="225"
+            x2="720.00"
+            y2="115.00"
+            stroke="#30363d"
+            stroke-width="1"
+        />
+        
+        <line
+            x1="720"
+            y1="225"
+            x2="830.00"
+            y2="225.00"
+            stroke="#30363d"
+            stroke-width="1"
+        />
+        
+        <line
+            x1="720"
+            y1="225"
+            x2="720.00"
+            y2="335.00"
+            stroke="#30363d"
+            stroke-width="1"
+        />
+        
+        <line
+            x1="720"
+            y1="225"
+            x2="610.00"
+            y2="225.00"
+            stroke="#30363d"
+            stroke-width="1"
+        />
+        
+    <polygon
+        points="720.00,116.10 721.10,225.00 720.00,225.00 720.00,225.00"
+        fill="#238636"
+        fill-opacity="0.25"
+        stroke="#3fb950"
+        stroke-width="3"
+        stroke-linejoin="round"
+    />
+    
+    <circle
+        cx="720"
+        cy="225"
+        r="5"
+        fill="#3fb950"
+    />
+    
+    <text x="720" y="92" text-anchor="middle" class="percentage">
+        99%
+    </text>
+    <text x="720" y="112" text-anchor="middle" class="label">
+        Commits
+    </text>
+
+    <text x="720" y="405" text-anchor="middle" class="percentage">
+        1%
+    </text>
+    <text x="720" y="423" text-anchor="middle" class="label">
+        Pull requests
+    </text>
+
+    <text x="870" y="220" text-anchor="middle" class="percentage">
+        0%
+    </text>
+    <text x="870" y="240" text-anchor="middle" class="label">
+        Issues
+    </text>
+
+    <text x="570" y="220" text-anchor="middle" class="percentage">
+        0%
+    </text>
+    <text x="570" y="240" text-anchor="middle" class="label">
+        Code review
+    </text>
+
+    </svg>
+    
