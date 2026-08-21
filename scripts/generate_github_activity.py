@@ -1,5 +1,6 @@
 import os
 import json
+import math
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from html import escape
@@ -15,13 +16,12 @@ QUERY = """
 query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
     contributionsCollection(from: $from, to: $to) {
-
       totalCommitContributions
       totalIssueContributions
       totalPullRequestContributions
       totalPullRequestReviewContributions
 
-      repositoriesContributedTo: repositoriesContributedTo(
+      repositoriesContributedTo(
         first: 31
         contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]
       ) {
@@ -68,17 +68,12 @@ def github_graphql(query, variables):
 def percentage(value, total):
     if total == 0:
         return 0
-
     return round((value / total) * 100)
 
 
 def polar_to_cartesian(cx, cy, radius, angle):
-    import math
-
     angle -= 90
-
     radians = math.radians(angle)
-
     return (
         cx + radius * math.cos(radians),
         cy + radius * math.sin(radians)
@@ -87,12 +82,10 @@ def polar_to_cartesian(cx, cy, radius, angle):
 
 def polygon_points(cx, cy, radius, values):
     points = []
-
     for i, value in enumerate(values):
         angle = i * 90
         x, y = polar_to_cartesian(cx, cy, radius * value, angle)
         points.append(f"{x:.2f},{y:.2f}")
-
     return " ".join(points)
 
 
@@ -109,43 +102,15 @@ def generate_svg(data):
     pr_pct = percentage(prs, total)
     review_pct = percentage(reviews, total)
 
-    percentages = [
-        commit_pct,
-        pr_pct,
-        issue_pct,
-        review_pct
-    ]
+    percentages = [commit_pct, pr_pct, issue_pct, review_pct]
 
     repositories = data["repositoriesContributedTo"]
-
-    repo_names = [
-        node["nameWithOwner"]
-        for node in repositories["nodes"]
-    ]
-
+    repo_names = [node["nameWithOwner"] for node in repositories["nodes"]]
     repo_count = repositories["totalCount"]
-
     first_repos = repo_names[:3]
-
-    if len(first_repos) == 0:
-        contribution_text = "No recent repository contributions"
-    else:
-        contribution_text = (
-            "Contributed to "
-            + ", ".join(first_repos)
-        )
-
-        remaining = max(repo_count - len(first_repos), 0)
-
-        if remaining > 0:
-            contribution_text += (
-                f" and {remaining} other "
-                f"repository{'ies' if remaining == 1 else 'ies'}"
-            )
 
     width = 940
     height = 420
-
     cx = 720
     cy = 225
     radius = 110
@@ -206,12 +171,10 @@ def generate_svg(data):
         }}
     </style>
 
-    <!-- Header -->
     <text x="28" y="45" class="title">
         Activity overview
     </text>
 
-    <!-- Vertical divider -->
     <line
         x1="475"
         y1="75"
@@ -221,14 +184,12 @@ def generate_svg(data):
         stroke-width="1"
     />
 
-    <!-- Contribution text -->
     <text x="28" y="105" class="normal">
         {escape("Contributed to")}
     </text>
 """
 
     y = 135
-
     for repo in first_repos:
         svg += f"""
         <text x="58" y="{y}" class="repo">
@@ -238,23 +199,16 @@ def generate_svg(data):
         y += 30
 
     remaining = max(repo_count - len(first_repos), 0)
-
     if remaining > 0:
+        label = "repository" if remaining == 1 else "repositories"
         svg += f"""
         <text x="58" y="{y}" class="normal">
-            and {remaining} other repositories
+            and {remaining} other {label}
         </text>
         """
 
-    # Radar grid
     for scale in [0.25, 0.5, 0.75, 1.0]:
-        pts = polygon_points(
-            cx,
-            cy,
-            radius * scale,
-            [1, 1, 1, 1]
-        )
-
+        pts = polygon_points(cx, cy, radius * scale, [1, 1, 1, 1])
         svg += f"""
         <polygon
             points="{pts}"
@@ -264,7 +218,6 @@ def generate_svg(data):
         />
         """
 
-    # Axis lines
     axis_points = [
         polar_to_cartesian(cx, cy, radius, 0),
         polar_to_cartesian(cx, cy, radius, 90),
@@ -284,15 +237,8 @@ def generate_svg(data):
         />
         """
 
-    # Actual activity polygon
     values = [p / 100 for p in percentages]
-
-    activity_points = polygon_points(
-        cx,
-        cy,
-        radius,
-        values
-    )
+    activity_points = polygon_points(cx, cy, radius, values)
 
     svg += f"""
     <polygon
@@ -305,7 +251,6 @@ def generate_svg(data):
     />
     """
 
-    # Center point
     svg += f"""
     <circle
         cx="{cx}"
@@ -315,9 +260,7 @@ def generate_svg(data):
     />
     """
 
-    # Labels
     svg += f"""
-    <!-- Commit -->
     <text x="{cx}" y="92" text-anchor="middle" class="percentage">
         {commit_pct}%
     </text>
@@ -325,7 +268,6 @@ def generate_svg(data):
         Commits
     </text>
 
-    <!-- Pull Requests -->
     <text x="720" y="405" text-anchor="middle" class="percentage">
         {pr_pct}%
     </text>
@@ -333,7 +275,6 @@ def generate_svg(data):
         Pull requests
     </text>
 
-    <!-- Issues -->
     <text x="870" y="220" text-anchor="middle" class="percentage">
         {issue_pct}%
     </text>
@@ -341,7 +282,6 @@ def generate_svg(data):
         Issues
     </text>
 
-    <!-- Reviews -->
     <text x="570" y="220" text-anchor="middle" class="percentage">
         {review_pct}%
     </text>
